@@ -1,0 +1,165 @@
+/* DO NOT DELETE THE body DECLARATION BELOW, BUT YOU MAY EDIT IT */
+
+body {
+    padding-top: 56px; /* Adjust based on your navbar height - this prevents the header from hiding behind the nav bar */
+}
+
+/* ADD YOUR CUSTOM CSS BELOW */
+
+.volunteer-section {
+  background-image: url("Photosc/APOPic.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 80px 20px;
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.volunteer-section {
+  position: relative;
+  color: white;
+}
+
+.volunteer-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  z-index: 0;
+}
+
+.volunteer-section * {
+  position: relative;
+  z-index: 1;
+}
+
+.volunteer-section h1 {
+  font-size: 5rem;   /* make the main title big */
+  font-weight: 800;  /* bold */
+  text-align: center;
+}
+
+.volunteer-section p {
+  font-size: 1.5rem; /* optional: make the subtitle bigger too */
+  text-align: center;
+}
+
+.volunteer-section .main_lead {
+  font-size: 1.6rem;   /* slightly bigger */
+  font-weight: 400;    /* normal weight */
+  margin-top: 10px;    /* optional spacing */
+  text-align: center;
+}
+
+.about-section {
+  background-color: #C4CDC1;
+  padding: 60px 20px;
+  text-align: left;
+}
+
+.mywhy-section {
+  background-color: #fffceb;
+  padding: 60px 20px;
+  text-align: left;
+}
+
+.whyvolunteer-section {
+  background-color: #C4CDC1;
+  padding: 100px 20px;
+  text-align: left;
+}
+
+.communitypartners-section {
+  background-color: #fffceb;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact-section {
+  background-color: #C4CDC1;
+  padding: 60px 20px;
+  text-align: left;
+}
+
+#about h2,
+#mywhy h2,
+#whyvolunteer h2,
+#communitypartners h2,
+#contact h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+#mainNav {
+  background-color: #B2D4B6;
+  font-weight: bold;
+}
+
+#mainNav .nav-link {
+  color: #28363D;
+}
+
+#mainNav .nav-link:hover {
+  color: #fff;
+}
+
+#mainNav .navbar-brand {
+  color: #28363D;
+}
+
+#carouselExampleRide {
+  height: 400px;
+}
+
+#carouselExampleRide .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+#carouselExampleRide2 .carousel-item img {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.custom-footer {
+    background-color: #B2D4B6;
+    color: #28363D; 
+}
+
+p {
+    font-family: "Times New Roman", serif;
+}
+
+.exec-img {
+    height: 350px;
+    object-fit: cover;
+}
+
+#contact .card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#contact .card-body {
+    background-color: #fffceb;
+}
+
+#contact .card-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#contact .card-text {
+    font-size: 1rem;
+}
